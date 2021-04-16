@@ -1,0 +1,22 @@
+Pequeño e-commerce realizado para presentar como proyecto final del curso "Programador Web Avanzado" (Centro e-Learning UTN FRBA).
+
+Disponible:
+
+	- Signup, Login y Logout de usuarios.
+	- Contraseñas con hash.
+	- Funciones exclusivas para usuarios registrados y otras para usuarios "admin" (éste último sólo puede ser establecido desde la base de datos).
+	- CRUD de productos.
+	- Páginas de detalle de productos.
+	- Validaciones PHP y Javascript de formularios.
+	- Manejo de Sesiones.
+	- Diseño responsive.
+
+*Usuario administrador:
+	email: admin@gmail.com
+	contraseña: admin
+
+Pendiente:
+
+	- Implementación de imágenes para Create de producto.
+	- Validaciones regex más complejas y precisas.
+	- Mejorar sistema de filtros, considero que el utilizado no es el mejor.
