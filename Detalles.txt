@@ -11,7 +11,7 @@ Disponible:
 	- Manejo de Sesiones.
 	- Diseño responsive.
 
-*Usuario administrador:
+* Usuario administrador:
 	email: admin@gmail.com
 	contraseña: admin
 
