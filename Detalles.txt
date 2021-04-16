@@ -1,4 +1,4 @@
-Pequeño e-commerce realizado para presentar como proyecto final del curso "Programador Web Avanzado" (Centro e-Learning UTN FRBA).
+Pequeño e-commerce realizado para presentar como proyecto final del curso "Programador Web Avanzado" en 2020 (Centro e-Learning UTN FRBA).
 
 Disponible:
 
