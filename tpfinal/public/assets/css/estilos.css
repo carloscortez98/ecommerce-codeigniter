@@ -1,0 +1,222 @@
+textarea {
+  resize: none;
+}
+
+.custom-file-input ~ .custom-file-label::after {
+    content: "Buscar";
+}
+
+.myHeader {
+  padding: 2rem 0;
+  background-color: #212F3D;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  color: white;
+}
+
+.myHeader a {
+  color: white;
+  text-decoration: none;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.navegador ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navegador ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.navegador ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+
+.navegador ul li a:hover {
+  background-color: #2C3E50;
+}
+
+#filtrarjean {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+
+#filtrarjean:hover {
+  background-color: #2C3E50;
+}
+
+#lista {
+  position:absolute;
+  z-index: 200;
+  background-color: #212F3D;
+  float: none;
+  display: none;
+  border-radius: 5px;
+}
+
+#lista li {
+  width: 100%;
+}
+
+#lista.ver {
+  display: block;
+}
+
+.logo {
+  letter-spacing: 15px;
+  font-size: 1.4em;
+}
+
+#iconoabrir {
+  display: none;
+}
+
+.myMain {
+  background-image: url("../../images/jeanfondo.jpg");
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  min-height: calc(100vh - 100px);
+}
+
+.myFooter {
+  background-color: #212F3D;
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: center;
+  height: 100px;
+}
+
+.myFooter p {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  background-color: white;
+}
+
+.carousel-inner {
+  height: 15%;
+  border-radius: 5px;
+}
+
+.carousel-inner img {
+  height: 30rem;
+  min-width: 90%;
+  border-radius: 5px;
+}
+
+#cuerpo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#boton-stamcar {
+  background-color: #212F3D;
+  border: none;
+  box-shadow: none;
+
+}
+
+#boton-stamcar:hover {
+  background-color: #2C3E50;
+}
+
+#columna-calc {
+  text-align: center;
+  justify-content: center;
+}
+
+#calculadoraph {
+  border: 1px solid #212F3D;
+}
+
+
+@media (max-width: 767px) {
+
+  #iconoabrir {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+
+  .navegador {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .navegador ul {
+    display: none;
+  }
+
+  .navegador ul.show {
+    display: block;
+  }
+
+  .navegador ul li {
+    display: block;
+  }
+
+  .navegador ul li a {
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+  }
+
+  .navegador ul li a:hover {
+    background-color: #2C3E50;
+  }
+
+  #filtrarjean {
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.3s linear;
+    border-radius: 5px;
+  }
+
+  #lista {
+    position: relative;
+    z-index: auto;
+    background-color: #212F3D;
+    float: none;
+    display: none;
+    padding: 0.5rem 1rem;
+  }
+
+  .carousel-inner img {
+    height: 200px;
+    max-width: 90%;
+  }
+
+  #calculadoraph {
+    display: none;
+  }
+}
